@@ -766,6 +766,8 @@ body {
 @media (max-width: 795px){
     .gallery__item{
         position: unset;
+        display: flex;
+        flex-direction: column;
     }
     .gallery__info {
         position: unset;
@@ -783,6 +785,7 @@ body {
 .gallery__info {
     padding: 19px 20px 19px 22px;
     background: rgba(0, 0, 0, 50%);
+    height: 80px;
 }
 
 .gallery__info--font {
