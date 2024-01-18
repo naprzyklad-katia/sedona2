@@ -319,6 +319,7 @@ body {
     line-height: 21px;
     color: #333;
     text-transform: uppercase;
+    padding: 0 120px 0 120px;
 }
 
 .visually-hidden {
@@ -816,6 +817,14 @@ body {
 .gallery__item--width {
     max-width: 33.33%;
     display: flex;
+}
+@media (max-width: 795px){
+    .gallery__item--width--ipad--offset{_
+        max-width: 40.47%;
+        }
+        .gallery__item--width {
+            max-width: 40.75%;
+        }
 }
 .video__heading{
     margin: 0 auto;
